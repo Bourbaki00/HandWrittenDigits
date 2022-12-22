@@ -7,6 +7,8 @@ import numpy as np
 
 from model import ModelM3
 
+
+##------------------ Fetching data ------------------##
 def fetch(url):
     import requests, gzip, os, hashlib, numpy
     fp = os.path.join("./tmp", hashlib.md5(url.encode('utf-8')).hexdigest())
@@ -28,6 +30,7 @@ url = "http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz"
 hashlib.md5(url.encode('utf-8')).hexdigest()
 
 
+##------------------ Initializing the network ------------------##
 model = ModelM3()
 BS = 256
 losses,accur = [],[]

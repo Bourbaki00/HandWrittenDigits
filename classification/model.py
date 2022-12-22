@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+##------------------ Test Net ------------------##
 class bobnet(nn.Module):
     def __init__(self):
         super().__init__()
@@ -15,6 +16,7 @@ class bobnet(nn.Module):
         x = self.l2(x)
         return x
 
+##------------------ MAIN NET ------------------##
 class ModelM3(nn.Module):
     def __init__(self):
         super().__init__()
