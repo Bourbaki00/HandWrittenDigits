@@ -50,4 +50,4 @@ Training models with Pytorch.
 
 
 ## References
-    * [THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/)
+[THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/)
