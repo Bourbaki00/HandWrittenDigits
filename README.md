@@ -27,10 +27,10 @@ either change the data through the variable or enter it manually for now
 ```
 
 ## Navigation 
-- eval.py : stores the code for evaluating the model
-- utils.py : stores the code for training the architecture on MNIST 
-- model.py : initializes the architecture 
-- pretrained : has the trained model 
+- classification/eval.py : stores the code for evaluating the model
+- classification/utils.py : stores the code for training the architecture on MNIST 
+- classification/model.py : initializes the architecture 
+- classification/pretrained : has the trained model 
 
 ## Models
 
