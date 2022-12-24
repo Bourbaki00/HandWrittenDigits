@@ -6,8 +6,8 @@ directory = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(directory, 'README.md'), encoding='utf-8') as f:
   long_description = f.read()
 
-setup(name='tinygrad',
-      version='0.4.0',
+setup(name='HandWriitenDigits',
+      version='0.0.1',
       description='Hand Written Digit Classification',
       author='Shauray Singh',
       license='MIT',
