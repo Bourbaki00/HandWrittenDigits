@@ -54,8 +54,8 @@ Training models with Pytorch.
 ## Evolution of the model
 - After no optimization iteration, the accuracy on the test set was 9.8% and the output was always "0" and the test data set had "0" with a frequency of 9.8%.
 - After the 1st iteration the accuracy increased to 40% on the test set and the weights are only trained on 256 images.
-- After 1000 iterations the model increased its accuracy to 99.1 % and here's a visualization of how the weights look. 
-![weights](assets/weights.png)
+- After 1000 iterations the model increased its accuracy to 99.1 % and here's a visualization of how the weights look. <br>
+![weights](assets/weights.png) <br>
 This shows that a simple CNN has a classification accuracy of about 99% or more.
 
 
