@@ -41,6 +41,7 @@ Definition and training of some models with MNIST. <br>
 ### MNIST dataset
 
 The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centred in a fixed-size image.
+![dataset](assets/dataset.png)
 
 ## Results
 Training models with Pytorch.
@@ -51,6 +52,12 @@ Training models with Pytorch.
 | [1, 1, 1, 1, 1, 1, 1, 1] | [3, 8, 6, 9, 1, 5, 0, 5] | Loss : 0.07  Accuracy : .99 |
 
 ## Evolution of the model
+- After no optimization iteration, the accuracy on the test set was 9.8% and the output was always "0" and the test data set had "0" with a frequency of 9.8%.
+- After the 1st iteration the accuracy increased to 40% on the test set and the weights are only trained on 256 images.
+- After 1000 iterations the model increased its accuracy to 99.1 % and here's a visualization of how the weights look. 
+![weights](assets/weights.png)
+This shows that a simple CNN has a classification accuracy of about 99% or more.
+
 
 ## References
 [THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/)
