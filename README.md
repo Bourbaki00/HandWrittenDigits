@@ -48,6 +48,7 @@ Training models with Pytorch.
 | ![GAN with MNIST](assets/mnist_results.png) | ![GAN with MNIST](assets/mnist_results.png) | ![GAN with MNIST](assets/loss.png) |
 | [1, 1, 1, 1, 1, 1, 1, 1] | [3, 8, 6, 9, 1, 5, 0, 5] | Loss : 0.07  Accuracy : .99 |
 
+## Evolution of the model
 
 ## References
 [THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/)
