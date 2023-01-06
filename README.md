@@ -46,7 +46,7 @@ The MNIST database of handwritten digits, available from this page, has a traini
 ## Results
 Training models with Pytorch.
 
-| Epoch 00                          | Epoch 100                          | Loss                                |
+| Epoch 00                          | Epoch 1000                          | Loss                                |
 | --------------------------------- | ---------------------------------- | ----------------------------------- |
 | ![GAN with MNIST](assets/mnist_results.png) | ![GAN with MNIST](assets/mnist_results.png) | ![GAN with MNIST](assets/loss.png) |
 | [1, 1, 1, 1, 1, 1, 1, 1] | [3, 8, 6, 9, 1, 5, 0, 5] | Loss : 0.07  Accuracy : .99 |
