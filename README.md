@@ -34,7 +34,9 @@ either change the data through the variable or enter it manually for now
 
 ## Models
 
-Definition and training of some models with MNIST. One used to train this model is named ModelM3 which uses a bunch of filter banks with batch normalization on alternate layers trained on Adam optimizer.
+Definition and training of some models with MNIST. <br>
+- First model was just a bunch of linear layers with ReLU activation (which did perform well enough).
+- One used to train this model is named ModelM3 which uses a bunch of filter banks with batch normalization on alternate layers trained on Adam optimizer.
 
 ### MNIST dataset
 
